@@ -1,20 +1,17 @@
-//TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
-// 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 
-fun cm(a:Int)
+fun angle(a:Int): Int = when(a)
 {
-    println(a*2.54)
-}
-fun inch(a:Int)
-{
-    println(a/2.54)
+    in 0 until 90 -> 1
+    90 -> 2
+    in 91 until 180 -> 3
+    180 -> 4
+    else -> a % 180
+
 }
 
 
 fun main()
 {
-    val a:Int = 28
-    val b:Int = 71
-    cm(a)
-    inch(b)
+    val a:Int = 188
+    println(angle(a))
 }
