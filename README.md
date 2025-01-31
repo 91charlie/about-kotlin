@@ -3,3 +3,4 @@
 
 ### second day - Class getter, setter 구현
 ### third day - enum 과 when 구현
+### fourth day - 반복문 구현
