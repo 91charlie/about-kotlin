@@ -10,7 +10,7 @@ fun main()
     }
 
 
-    do // do + while 문은 while 문의 조건과 상관 없이 do 내의 내용은 반드시 작동한다.
+    do // do + while 문은 while 문의 조건과 상관 없이 do 내의 내용은 최초 동작시 반드시 작동한다.
     {
         println("해당 while문의 조건은 always false 지만 해당 메세지가 출력 될 것이다.")
     }
