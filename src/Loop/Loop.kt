@@ -14,7 +14,7 @@ fun main()
     {
         println("해당 while문의 조건은 always false 지만 해당 메세지가 출력 될 것이다.")
     }
-    while(a<0)
+    while(a<0) // do while 에서 동작할 코드는 do 에만 작성한다.
 
 
     for(i in 1 until 10) // for 문의 in은 범위 내 i 값이 포함하는지 확인하는 역할을 한다.
