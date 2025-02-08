@@ -1,4 +1,7 @@
 src / fun 
+
+{gr}
+
 src / Exception 내용 추가
 
 함수의 기본 형태
