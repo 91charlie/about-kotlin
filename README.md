@@ -1,6 +1,5 @@
 src / fun 
 
-{gr}
 
 src / Exception 내용 추가
 
