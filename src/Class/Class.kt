@@ -19,7 +19,7 @@ fun main()
 {
 
     val avc = abc()
-    avc.a = 2 // getter에 2 입력 *2 연산 후 4가 된다
+    avc.a = 2 // getter 에 2 입력 *2 연산 후 4가 된다
     val b = 3
 
     println(avc.a)
