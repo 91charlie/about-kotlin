@@ -1,5 +1,3 @@
-src / Loop 에 반복문에 관한 내용 추가
+src / fun 에 확장 프로퍼티 내용과 확장 함수를 함께 사용하는 예제 추가 
+scr / funtion 폴더에 Readme 추가
 
-while 과 do - while
-
-for 의 in , .. , until , step , downTo , 문자열의 대소비교
