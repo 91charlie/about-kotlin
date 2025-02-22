@@ -51,7 +51,7 @@ class 코틀린 클래스
 </pre>
 해당 내용을 자바에서 호출시 
 
-exkt.코틀린 함수가 아닌 new_name.코틀린 함수로 호출 가능하다.
+exkt. 코틀린 함수가 아닌 new_name.코틀린 함수로 호출 가능하다.
 
 import mypackage.이름; <-- 을 해야한다.
 
