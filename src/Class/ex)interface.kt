@@ -45,7 +45,14 @@ class calculator():plus, minus, multiply, divide
 fun divide.remainder(a:Int, b: Int):Int
 {
     println("나눗셈 후 나머지를 출력하는 확장 함수")
-    return a % b
+    try {
+        return a % b
+    }
+    catch(e:ArithmeticException)
+    {
+        println("0으로 나눌 수 없습니다.")
+        return 0
+    }
 }
 fun main()
 {
@@ -54,6 +61,8 @@ fun main()
     println( c.p(1,2))
     println( c.m(4,2))
     println( c.multi(2,2))
-    println( c.d(6,0))
+    println( c.d(6,2))
     println(c.remainder(5,3))
+    println( c.d(6,0))
+    println(c.remainder(5,0))
 }
