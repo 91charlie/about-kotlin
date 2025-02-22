@@ -4,3 +4,6 @@
 ### second day - Class getter, setter 구현
 ### third day - enum 과 when 구현
 ### fourth day - 반복문 구현
+### day 5 - 함수,확장 함수 구현, 예외 처리 try catch finally
+### K6 - 확장 프로퍼티 선언과 확장 함수를 통한 확장
+### K7 - 인터페이스 구현
