@@ -67,4 +67,5 @@ fun main()
 
     //확장 인터페이스 호출
     (a as itf02).extfun()
+
 }

@@ -1,4 +1,4 @@
- class abc
+ final public class abc
 {
     var a:Int = 0 // field
         get() // 커스텀 접근자 getter
