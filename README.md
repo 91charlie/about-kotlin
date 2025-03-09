@@ -1,3 +1,2 @@
-인터페이스 추상 메소드, 프로퍼티, 기본값, 다중 상속(채택), 인터페이스의 확장
-인터페이스를 통한 계산기 예제
-
+Variation of class - 중첩클래스, inner 클래스, sealed 클래스
+constructor of class - 주생성자, 부생성자
