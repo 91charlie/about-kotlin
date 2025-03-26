@@ -6,7 +6,7 @@ class exxClass(val propertyy:String, val properttyy: Int) {
     }
 
     override fun equals(other: Any?): Boolean {
-        if(this === other) return true
+        if(this === other) return true // 같은 메모리인지 판별
         if(this is exxClass) return true
         return propertyy == other && properttyy == other
     }

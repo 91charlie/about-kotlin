@@ -5,6 +5,7 @@ object ex_ob {
         return "object_concept - ${ob_concept}"
     }
 }
+
 fun main()
 {
     // 싱글톤 객체 = 오브젝트의 선언과 인스턴스의 생성이 동시에 이루어지면서 단 한번만 이루어진다.

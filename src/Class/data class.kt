@@ -24,4 +24,5 @@ fun main()
     println(inst.component1().hashCode())
     println(inst.component2().hashCode())
     println(copy_inst.component1().hashCode())
+    println(inst.component2())
 }
