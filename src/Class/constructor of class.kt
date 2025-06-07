@@ -20,7 +20,7 @@ class ex_class2 public constructor(b: Int) // 파라미터만 선언
 class ex_class3 public constructor(val c1:Int, val c2:Int, val c3:Int)
 {
     init {
-        println("주생성자 접근")
+        println("주생성자 접근 $c1, $c2, $c3")
     }
     //constructor(파라미터):this(파라미터,기본값)
     constructor(c1: Int,c2: Int):this(c1,c2,1)// this()는 주생성자를 호출한다.

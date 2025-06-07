@@ -22,7 +22,7 @@ interface itf03 // 추상 프로퍼티와 기본 구현된 프로퍼티 사용�
 {
     val text:String
     val num:Int
-        get() = 1
+        get() = 0
     fun printex()
     {
         println("삽입 된 문자열 -> ${text}")

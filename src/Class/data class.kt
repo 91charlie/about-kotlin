@@ -13,8 +13,8 @@ fun main()
     val is_equal_2 = ex_dt_class(1,"a")
     val is_equal_3 = is_equal
 
-    println(is_equal == is_equal_2)
-    println(is_equal === is_equal_3)
+    println(is_equal == is_equal_2) // == 값이 동일한지 비교
+    println(is_equal === is_equal_3) // === 동일한 메모리상의 객체인지 비교
 
     //copy
     val copy_inst = inst.copy(99)
