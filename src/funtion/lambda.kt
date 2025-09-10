@@ -31,7 +31,7 @@ fun main()
     val inst3 = ExDataClass("charlie",2,1)
 
     val ilist:List<ExDataClass> = listOf(inst1,inst2,inst3)
-    excomp(ilist){it.a} // 인스턴스의 어떤 원소를 기준으로 연산할 지 정할 수 있다.
+    excomp(ilist){it.name} // 인스턴스의 어떤 원소를 기준으로 연산할 지 정할 수 있다.
 
     // 3. 내장된 람다 함수의 체이닝과 시퀀스의 예제
     val exlist: List<Int> = listOf(1,2,3,4,5,6,7,8,9,10)

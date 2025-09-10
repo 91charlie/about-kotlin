@@ -19,8 +19,6 @@ public enum class Day() // enum (열거형) 클래스 선언
         // if문 보다 간편하게 작성 가능하다.
     }
 
-
-
 }
 
 fun main()
