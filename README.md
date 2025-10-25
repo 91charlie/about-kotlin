@@ -11,3 +11,4 @@
 ### K9 - 중첩, inner, sealed class 및 생성자 내용 추가
 ### K13 - 람다
 ## OperatorAndDelegate - 오퍼레이터와 델레게이트 패턴
+## collectionW_Remind - 컬렉션 타입과 간단한 문법 정리
