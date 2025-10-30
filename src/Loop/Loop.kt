@@ -5,10 +5,11 @@ fun main()
 
     while(a < 10) // while(boolean 으로 나타낼 수 있는 조건)
     {
-        println(a)
+        print(a)
         a++
     }
 
+    println()
 
     do // do + while 문은 while 문의 조건과 상관 없이 do 내의 내용은 최초 동작시 반드시 작동한다.
     {
@@ -52,6 +53,12 @@ fun main()
     for(m in 'j' downTo 'a' step 2 ) // 코틀린은 문자열의 대소 비교도 가능하며 downTo를 통해 내림차순으로 순회가능하다.
     {
        print(m)
+    }
+
+    println()
+    // repeat
+    repeat(3){
+        print("*")
     }
 
 }
